@@ -1,5 +1,81 @@
-h1{
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #fafafa;
+
+    font-family: sans-serif;
+    
+}
+
+header{
+    background-color: #fff;
+}
+
+header .logo p{
 
     text-align: center;
-    color: aqua;
+    font-size: 40px;
+    color: #0969A2;
+
+}
+
+header .menu{
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header .menu li{
+    padding: 8px;
+}
+
+header .carrousel .fondo{
+    position: relative;
+
+
+}
+
+header .carrousel .fondo img{
+    height: 70vh;
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(75%);
+
+
+}
+
+header .carrousel .fondo-contenido{
+
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+
+header .carrousel .fondo-contenido h3{
+
+    font-size: 20px;
+
+}
+header .carrousel .fondo-contenido .boton{
+
+    margin-top: 20px;
+    padding: 14px 24px;
+    background-color: darkslategray;
+    color: #fff;
+    border: none;
 }

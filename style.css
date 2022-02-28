@@ -18,7 +18,7 @@ header{
 }
 
 header .logo p{
-
+    font-family: 'Satisfy', sans-serif;
     text-align: center;
     font-size: 40px;
     color: #0969A2;
@@ -37,45 +37,186 @@ header .menu li{
 }
 
 header .carrousel .fondo{
-    position: relative;
-
+    position: relative;    
+    height: 85vh;
+    overflow: hidden;
 
 }
 
 header .carrousel .fondo img{
-    height: 70vh;
     object-fit: cover;
     width: 100%;
+    height: 100%;
     filter: brightness(75%);
 
 
 }
 
 header .carrousel .fondo-contenido{
-
     position: absolute;
     top: 0px;
     color: #fff;
     display:flex;
     height: 100%;
+    width: 100%;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 20px;
     text-align: center;
-    align-items: center;
-
+    align-items:center ;
+    overflow: hidden;
+    padding: 20px;
 }
 
 header .carrousel .fondo-contenido h3{
 
     font-size: 20px;
+    margin-bottom: 20px;
 
 }
 header .carrousel .fondo-contenido .boton{
 
-    margin-top: 20px;
     padding: 14px 24px;
     background-color: darkslategray;
     color: #fff;
     border: none;
+}
+
+
+
+/* ----------------main------- */
+
+
+.main{
+    margin-top: 20px;
+}
+
+.main .caja .titulo{
+
+    background-color: #02B08F;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    height: 200px;
+
+}
+.main .caja .titulo h2{
+    padding: 20px;
+
+}
+.main .caja .galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 100px;
+    overflow: hidden;
+}
+
+.main .caja .galeria .card{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.producto{
+
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.producto .imagen{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.producto .imagen img{
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.producto .boton{
+    border: none;
+    background-color: #00031D;
+    color: #fff;
+    padding: 10px 20px ;
+    width: auto;text-align: center;
+}
+
+
+
+.main .caja .ofertas-titulo{
+    background:#4089B3 ;
+
+}
+
+/* detalles sobre los servicios */
+
+
+.main .servicios{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.servicios-envios,.servicios-metodo,.servicios-warranty{
+    margin:10px;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    background-color: #fff;    
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.servicios-warranty{
+    
+}
+.servicios h2{
+    padding-bottom: 12px;
+    color: #1C5359;
+}
+.servicios .imagen{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.servicios .imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:100%;
+}
+
+
+/* footer */
+footer{
+    margin-top: 50px;
+}
+footer .redes{
+    background-color:#074A70;
+    text-align: center;
+    color: #Fff;
+    padding: 20px;
+
+}
+
+footer .redes p{
+    margin-bottom: 20px;
 }

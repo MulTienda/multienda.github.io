@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" ,sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+body{
+    background-color: #fdfdfd;
+}
+
+/* --------------header---------------------- */
+header{
+}
+
+/* --------------------navigation menu-------- */
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    list-style: none;
+    
+}
+
+.menu li{
+
+    color:#5C5C5C;
+    padding: 4px 8px;
+
+
+}
+
+.menu--logo{
+    font-family: 'satisfy';
+}
+
+
+
+
+/* ------------------------cover-page--------------------- */
+
+
+
+.cover-page{
+
+    display: flex;
+    width: 100%;
+    height: 300px;
+
+
+    background-color: #EDEDED;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-top: 16px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+/* --------------this's the frame of the information----------- */
+
+.cover-page--information{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+
+
+}
+
+.cover-page--information--title{
+
+    color: #5C5C5C;
+ 
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.cover-page--information--buttoms{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 16px;
+
+}
+.cover-page--information--buttoms--oferts,.cover-page--information--buttoms--newness{
+    
+    padding: 4px 8px;
+    
+    
+    background-color: #5C5C5C;
+    color: #fdfdfd;
+    border: 1px solid #ccc;
+
+    border-radius: 10px;
+    border: none;
+    font-size: 8px;
+    font-weight: 300;
+
+
+}
+.cover-page--information--buttoms--oferts{
+    margin-right: 5px;
+}
+
+.cover-page--information--buttoms--newness{
+
+    margin-left: 5px;
+}
+
+
+
+
+/* ------------this's the image of .cover-page	----------- */
+
+.cover-page--image{
+
+    height: 100%;
+    width: 50%; 
+
+}
+
+.cover-page--image img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+

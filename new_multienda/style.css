@@ -53,7 +53,7 @@ header{
 
     display: flex;
     width: 100%;
-    height: 300px;
+    height: 30vh;
 
 
     background-color: #EDEDED;
@@ -139,4 +139,47 @@ header{
     object-fit: cover;
 }
 
+/* ---------------------------main------------------ */
 
+.main{
+}
+
+.service{
+    margin-top: 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service--child{
+    
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    padding: 5px;
+    overflow: hidden;
+    color: #5C5C5C;
+
+
+}
+
+.service--child--icon{
+
+}
+
+.service--child--title{
+    text-align: center;
+    font-size: 10px;
+
+
+}
+
+.service--child--description{
+    text-align: center;
+    font-size: 8px;
+
+}

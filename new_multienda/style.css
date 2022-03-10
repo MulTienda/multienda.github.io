@@ -160,9 +160,12 @@ header{
     align-items: center;
     justify-content: flex-start;
     
-    padding: 5px;
+    margin: 5px;
     overflow: hidden;
     color: #5C5C5C;
+
+    border:1px solid #0001;
+
 
 
 }

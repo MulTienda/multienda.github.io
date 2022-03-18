@@ -88,6 +88,12 @@ header{
 
 }
 
+.cover-page--information--title .bold{
+
+    font-weight: bold;
+
+}
+
 .cover-page--information--buttoms{
     display: flex;
     justify-content: center;
@@ -106,7 +112,7 @@ header{
 
     border-radius: 10px;
     border: none;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 300;
 
 
@@ -145,8 +151,7 @@ header{
 }
 
 .service{
-    margin-top: 40px;
-
+    margin: 40px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -183,6 +188,24 @@ header{
 
 .service--child--description{
     text-align: center;
-    font-size: 8px;
+    font-size: 10px;
+
+}
+
+
+/* ---------------ofertas------------------------ */
+
+.ofertas--title{
+
+    font-size: 12px;
+    color: #5C5C5C;
+    
+}
+
+.ofertas--description{
+
+    font-size: 10px;
+    color: #5C5C5C;
+    
 
 }
